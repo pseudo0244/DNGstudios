@@ -17,8 +17,8 @@ interface ProjectSummary {
 
 interface HomePageProps {
   projects: ProjectSummary[]
-  onCreateProject: (title: string, composer: string, description?: string, projectType?: "DNG" | "DNR") => void // Updated signature
-  onOpenProject: (projectId: string, projectType: "DNG" | "DNR") => void // Updated signature
+  onCreateProject: (title: string, composer: string, description?: string) => void
+  onOpenProject: (projectId: string) => void
   onDeleteProject: (projectId: string) => void
 }
 

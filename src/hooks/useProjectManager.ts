@@ -37,6 +37,8 @@ export const useProjectManager = () => {
       keySignature: 'C',
       tempo: 120,
       createdAt: new Date(),
+      scoreInfoPosition: { x: 40, y: 40 },
+      textElements: [],
     };
 
     const newProject: ScoreProject = {

@@ -29,4 +29,17 @@ export interface ScorePage {
   }
   keySignature: string
   tempo: number
+  scoreInfoPosition?: { x: number; y: number }
+  textElements?: TextElement[]
+}
+
+export interface TextElement {
+  id: string
+  text: string
+  x: number
+  y: number
+  fontSize: number
+  bold: boolean
+  italic: boolean
+  underline: boolean
 }
