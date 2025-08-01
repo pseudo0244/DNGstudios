@@ -1214,7 +1214,7 @@ const ScoreSheet: React.FC<ScoreSheetProps> = ({
             <ul className="text-sm text-blue-800 space-y-2">
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                Use "Play All" to hear your composition
+                Use "Play All\" to hear your composition
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
@@ -1222,7 +1222,7 @@ const ScoreSheet: React.FC<ScoreSheetProps> = ({
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                View keyboard mapping with "Key Map" button
+                View keyboard mapping with "Key Map\" button
               </li>
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
